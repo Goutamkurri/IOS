@@ -355,6 +355,7 @@
                         <outlet property="Digit4Guess5" destination="xk4-5q-edG" id="S8q-Ur-whv"/>
                         <outlet property="Guess" destination="qpj-Eo-3JO" id="UYI-qM-9sg"/>
                         <outlet property="GuessBTN" destination="JSn-8n-79N" id="WHI-80-l76"/>
+                        <outlet property="Reset" destination="iUW-wN-J4T" id="hgJ-wA-2Eg"/>
                         <outlet property="Result0" destination="c5H-4f-fGY" id="XzD-hN-nEn"/>
                         <outlet property="Result1" destination="Lb0-zW-c08" id="gyg-X9-sS8"/>
                         <outlet property="Result2" destination="QMl-VN-9jC" id="D6R-mt-hN8"/>
