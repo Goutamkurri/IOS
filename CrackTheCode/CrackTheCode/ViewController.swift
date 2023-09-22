@@ -354,16 +354,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         switch guessCounter {
         case 1 :
-            UIView.transition(with: Digit1Guess1, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit1Guess1, duration: 0.5, options: .transitionFlipFromTop, animations: { [self] in
                     self.Digit1Guess1.text = String(self.guessDigit1 ?? 0)
                     }, completion: nil)
             UIView.transition(with: Digit2Guess1, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit2Guess1.text = String(self.guessDigit2 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit3Guess1, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit3Guess1, duration: 1.5, options: .transitionFlipFromTop, animations: { [self] in
                     self.Digit3Guess1.text = String(self.guessDigit3 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit4Guess1, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit4Guess1, duration: 2, options: .transitionFlipFromTop, animations: { [self] in
                     self.Digit4Guess1.text = String(self.guessDigit4 ?? 0)
                     }, completion: nil)
             
@@ -930,16 +930,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             
         case 2:
-            UIView.transition(with: Digit1Guess2, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit1Guess2, duration: 0.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit1Guess2.text = String(guessDigit1 ?? 0)
                     }, completion: nil)
             UIView.transition(with: Digit2Guess2, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit2Guess2.text = String(guessDigit2 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit3Guess2, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit3Guess2, duration: 1.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit3Guess2.text = String(guessDigit3 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit4Guess2, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit4Guess2, duration: 2, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit4Guess2.text = String(guessDigit4 ?? 0)
                     }, completion: nil)
             
@@ -1501,16 +1501,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
             progressCounter = 0
             
         case 3:
-            UIView.transition(with: Digit1Guess3, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit1Guess3, duration: 0.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit1Guess3.text = String(guessDigit1 ?? 0)
                     }, completion: nil)
             UIView.transition(with: Digit2Guess3, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit2Guess3.text = String(guessDigit2 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit3Guess3, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit3Guess3, duration: 1.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit3Guess3.text = String(guessDigit3 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit4Guess3, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit4Guess3, duration: 2, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit4Guess3.text = String(guessDigit4 ?? 0)
                     }, completion: nil)
             
@@ -2072,16 +2072,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
             progressCounter = 0
         case 4:
-            UIView.transition(with: Digit1Guess4, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit1Guess4, duration: 0.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit1Guess4.text = String(guessDigit1 ?? 0)
                     }, completion: nil)
             UIView.transition(with: Digit2Guess4, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit2Guess4.text = String(guessDigit2 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit3Guess4, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit3Guess4, duration: 1.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit3Guess4.text = String(guessDigit3 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit4Guess4, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit4Guess4, duration: 2, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit4Guess4.text = String(guessDigit4 ?? 0)
                     }, completion: nil)
             
@@ -2645,16 +2645,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
             progressCounter = 0
             
         case 5:
-            UIView.transition(with: Digit1Guess5, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit1Guess5, duration: 0.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit1Guess5.text = String(guessDigit1 ?? 0)
                     }, completion: nil)
             UIView.transition(with: Digit2Guess5, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit2Guess5.text = String(guessDigit2 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit3Guess5, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit3Guess5, duration: 1.5, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit3Guess5.text = String(guessDigit3 ?? 0)
                     }, completion: nil)
-            UIView.transition(with: Digit4Guess5, duration: 1, options: .transitionFlipFromTop, animations: { [self] in
+            UIView.transition(with: Digit4Guess5, duration: 2, options: .transitionFlipFromTop, animations: { [self] in
                 self.Digit4Guess5.text = String(guessDigit4 ?? 0)
                     }, completion: nil)
             

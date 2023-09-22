@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "365F8539-9B6E-4E2C-A518-087128586EA9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F384B00-ECB6-49F7-ABC0-A1339E3102EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrackTheCode/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1503"
+            endingLineNumber = "1503"
+            landmarkName = "GuessBTN(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F384B00-ECB6-49F7-ABC0-A1339E3102EC - 8c73f977d1de664d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CrackTheCode.ViewController.GuessBTN(__C.UIButton) -&gt; ()"
+                  moduleName = "CrackTheCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goutham/Documents/IOS/CrackTheCode/CrackTheCode/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1348"
+                  endingLineNumber = "1348"
+                  offsetFromSymbolStart = "208416">
+               </Location>
+               <Location
+                  uuid = "6F384B00-ECB6-49F7-ABC0-A1339E3102EC - 8c73f977d1de664d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CrackTheCode.ViewController.GuessBTN(__C.UIButton) -&gt; ()"
+                  moduleName = "CrackTheCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/goutham/Documents/IOS/CrackTheCode/CrackTheCode/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1348"
+                  endingLineNumber = "1348"
+                  offsetFromSymbolStart = "210708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
